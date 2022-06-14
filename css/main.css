@@ -1,0 +1,285 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #f7f7f7;
+}
+img, svg{
+    vertical-align:baseline;
+}
+
+#navbar{
+    box-shadow: 0px 6px 16px rgba(38, 39, 40, 0.04), 0px 3px 5px rgba(38, 39, 40, 0.04), 0px 1.5px 2px rgba(38, 39, 40, 0.0308137), 0px 0.5px 0.8px rgba(38, 39, 40, 0.0208922);
+    background-color: #f7f7f7;
+}
+
+.right-box1{
+    display: flex;
+    align-items:center;
+}
+#h4-letter{
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+    
+}
+.bi-chat-fill{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.bi-bell-fill{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.right-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-client{
+    width:40px;
+    height:40px;
+    cursor: pointer;
+}
+.align-middle.d-none.d-sm-inline-block{
+    color:black;
+}
+.dropdown-toggle::after{
+    color:black;
+}
+.bi-caret-down-fill{
+    margin-left: 10px;
+    cursor: pointer;
+}
+#dropdownMenuLink{
+    background-color: transparent;
+    color: black;
+    border: none;
+    box-shadow: none;
+    margin-right: 30px;
+}
+/*-----------------------*/
+.dropdown-toggle::after{
+    vertical-align: 0%;
+}
+.dropdown-item.notify-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.dropdown-item.notify-item > img{
+    margin-right: 20px;    
+}
+
+        /*START dropdown menu*/
+
+      /*END dropdown menu*/
+
+        /*Start SideBar*/
+.float-start{
+    background-color: white;
+    border: 1px solid #D6D6D6;
+    width: 239px;
+    min-height: 663px;
+}
+.bg-white{
+    width: 237px;
+}
+.form-control{
+    background-color: #f7f7f7;
+    border-radius: .56rem;
+    margin: 10px;
+    width: 215px;
+}
+
+#dropdown-menu1{
+    background-color: transparent;
+    border: none;
+}
+#dropdown-menu1:hover{
+    background-color: transparent;
+    border: none;
+}
+.img-arabic{
+    margin-right: 10px;
+}
+
+        /*End SideBar*/
+.btn.btn-toggle.align-items-center.collapsed{
+    display: flex;
+    border-radius: 0;
+    width: 100%;
+    position: relative;
+}
+.btn.btn-toggle.align-items-center{
+    display: flex;
+    border-radius: 0;
+    width: 100%;
+    position: relative;
+    font-size: 18px;
+    padding: 15px;
+}
+.btn.btn-toggle.align-items-center:focus-visible{
+    border-radius: 0;
+    width: 200px;
+    background-color: #FFAA1B;
+}
+.bi-caret-right-fill::before{
+    position: absolute;
+    left:210px;
+    bottom: 17px;
+}
+.arrow{
+    width: 13px;
+    margin-left: 20px;
+}  
+
+.arrow::before{
+    margin-left: 40px;
+    transform: rotate(90deg);
+} 
+.link-dark.rounded{
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 30px;
+    
+}
+.li-colored{
+    padding: 8px;
+}
+.li-colored:hover{
+    background-color:#FFe8BD;
+}
+
+                        /* TOOLBAR */
+.row.toolbar{
+    background-color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    height: 66px;
+    border: 1px solid #D6D6D6;
+    border-left: none;
+}
+.row.toolbar > h2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 25px;
+    width:300px;
+
+}
+.btn.btn-primary{
+    display: flex;
+    width:100px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-group{
+    display: flex;
+    align-items: center;
+    width: 250px;
+}
+
+/* THE FORM to TO Date forum*/
+
+.input-group:not(.has-validation)>.dropdown-toggle:nth-last-child(n+3), .input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu){
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.form-group{
+    display: contents;
+}
+.input-group{
+    width: 192px;
+    color:#A8A8A8;
+}
+#datetimepicker1{
+    margin-left: auto;
+    margin-right:-33px;
+}
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback){
+    position: relative;
+    font-size: 12px;
+    right:45px;
+}
+.bi-calendar-range::before{
+    margin-right: -6px;
+}
+.btn.btn-primary{
+    width: 180px;
+    background-color: #4AA8FF;
+    border:none;
+    color:black;
+    border-radius: 10px;
+}
+#fromandto{
+    display: flex;
+    align-items: center;
+}
+
+/* DASHBOARD */
+
+.Dashboard{
+    background-color: #FFFFFF;
+    width: 1240px;
+    margin: 20px;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.col-3.piecharter{
+    width: 250.4px;
+    height: 250.4px ;
+    margin-left: 30px;
+}
+thead{
+    background-color: #2a2a2a;
+    color:white;
+}
+
+.Dic{
+    display: inline-flex;
+    margin-bottom: 10px;
+}
+#country{
+    width: 200px;
+    margin-right: 20px;
+}
+#curency{
+    width: 60px;
+    margin-right: 20px;
+}
+
+.form-select.me-2.search{
+    background-image: none;
+}
+
+.btn.btn-outline-success.s-c{
+    color:black;
+    border-color: #CED4DA;
+    width: 160px;
+    margin-right:190px;
+}
+.btn.btn-outline-success.s-c:hover{
+background-color:#4AA8FF;
+}
+
+.btn.btn-light.s-c{
+    float: right;
+    clear: both;
+    border-color:#CED4DA ;
+    width: 160px;
+    margin-left: 10px;
+}
+
+/* Footer */
+
+footer > p{
+    font-size: 10px;
+    margin-bottom: 1px;
+    color:#A7a7a7;
+}

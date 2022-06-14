@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="">navbar</a> <!--brand name or logo-->
+                <div class="right-box1">
+                                     <!-- Start language dropdown-->
+                                     <ul class="list-unstyled topbar-menu float-end mb-0">
+                                     <li class="dropdown notification-list topbar-dropdown">
+                                      <a class="nav-link dropdown-toggle arrow-none" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                          <img src="img/united-kingdom.png" alt="user-image" class="me-0 me-sm-1" height="25" style="vertical-align: middle;" > 
+                                          <span class="align-middle d-none d-sm-inline-block">English</span> <i class="mdi mdi-chevron-down d-none d-sm-inline-block align-middle"></i>
+                                      </a>
+                                      <div class="dropdown-menu dropdown-menu-end dropdown-menu-animated topbar-dropdown-menu">
+      
+                                          <!-- item-->
+                                          <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                              <img src="img/united-arab-emirates.png" alt="user-image" class="me-1" height="25"> <span class="align-middle">Arabic</span>
+                                          </a>
+      
+                                          <!-- item-->
+                                          <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                              <img src="assets/images/flags/italy.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">Italian</span>
+                                          </a>
+                      
+                                          <!-- item-->
+                                          <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                              <img src="assets/images/flags/spain.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">Spanish</span>
+                                          </a>
+      
+                                          <!-- item-->
+                                          <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                              <img src="assets/images/flags/russia.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">Russian</span>
+                                          </a>
+      
+                                       </div>
+                                       </li>
+                                     </ul>
+                                     <!-- End language dropdown-->
+                    <div class="">
+                        <i class="bi bi-bell-fill"></i>
+                        <i class="bi bi-chat-fill"></i>                              
+                    </div>                                            
+                    <div class="right-box">
+                        <img class="logo-client" src="https://via.placeholder.com/50">
+                            <h6 id="h4-letter">Eyal Levi<i class="bi bi-caret-down-fill"></i></h6>
+                    </div>
+                </div>    
+            </div>
+        </nav>
+    </header>
+                            <!-- SideBar-->
+    <article class="float-start">
+        <aside class="col-2">
+            <div class="flex-shrink-0 bg-white">
+                  <select class="form-control" id="exampleFormControlSelect1"><option>Location</option>
+                  <option>London</option>
+                  <option>Boston</option>
+                  <option>Mumbai</option>
+                  <option>New York</option>
+                  <option>Toronto</option>
+                  <option>Paris</option>
+                  </select>
+                  <hr>
+                  <ul class="list-unstyled ps-0">
+                  <li class="">
+                    <button class="btn btn-toggle align-items-center collapsed" data-bs-toggle="collapse" data-bs-target="#Human-collapse" aria-expanded="true"><img src="img/teamwork.png" style="width: 20px;margin-right: 10px;">
+                    Human Resorse
+                    <i class="bi bi-caret-right-fill"></i>  
+                    </button>
+                    <div class="collapse show" id="Human-collapse">
+                      <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <li class="li-colored"><a href="#" class="link-dark rounded">Overview</a></li>
+                        <li class="li-colored"><a href="#" class="link-dark rounded">Updates</a></li>
+                        <li class="li-colored"  ><a href="#" class="link-dark rounded">Reports</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="">
+                    <button class="btn btn-toggle align-items-center collapsed" data-bs-toggle="collapse" data-bs-target="#Product-collapse" aria-expanded="true"><img src="img/teamwork.png" style="width: 20px; margin-right: 10px">
+                    Product
+                    <i class="bi bi-caret-right-fill"></i>  
+                    </button>
+                    <div class="collapse" id="Product-collapse">
+                      <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <li class="li-colored"><a href="#" class="link-dark rounded">Overview</a></li>
+                        <li class="li-colored"><a href="#" class="link-dark rounded">Updates</a></li>
+                        <li class="li-colored"><a href="#" class="link-dark rounded">Reports</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="">
+                    <button class="btn btn-toggle align-items-center collapsed" data-bs-toggle="collapse" data-bs-target="#Warehouse-collapse" aria-expanded="true"><img src="img/warehouse.png" style="width: 20px; margin-right: 10px">
+                    Warehouse
+                    <i class="bi bi-caret-right-fill"></i>  
+                    </button>
+                    <div class="collapse" id="Warehouse-collapse">
+                      <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <li class="li-colored"><a href="#" class="link-dark rounded">Overview</a></li>
+                        <li class="li-colored"><a href="#" class="link-dark rounded">Updates</a></li>
+                        <li class="li-colored"><a href="#" class="link-dark rounded">Reports</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="">
+                    <button class="btn btn-toggle align-items-center collapsed" data-bs-toggle="collapse" data-bs-target="#POS-collapse" aria-expanded="true"><img src="img/cashier.png" style="width: 20px; margin-right: 10px">
+                    POS
+                    <i class="bi bi-caret-right-fill"></i>  
+                    </button>
+                    <div class="collapse" id="POS-collapse">
+                      <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <li class="li-colored"><a href="#" class="link-dark rounded">Overview</a></li>
+                        <li class="li-colored"><a href="#" class="link-dark rounded">Updates</a></li>
+                        <li class="li-colored"><a href="#" class="link-dark rounded">Reports</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="">
+                    <button class="btn btn-toggle align-items-center collapsed" data-bs-toggle="collapse" data-bs-target="#Restaurant-collapse" aria-expanded="true"><img src="img/teamwork.png" style="width: 20px; margin-right: 10px">
+                    Restaurant
+                    <i class="bi bi-caret-right-fill"></i>  
+                    </button>
+                    <div class="collapse" id="Restaurant-collapse">
+                      <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <li class="li-colored"><a href="#" class="link-dark rounded">Overview</a></li>
+                        <li class="li-colored"><a href="#" class="link-dark rounded">Updates</a></li>
+                        <li class="li-colored"><a href="#" class="link-dark rounded">Reports</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="">
+                    <button class="btn btn-toggle align-items-center collapsed" data-bs-toggle="collapse" data-bs-target="#Reports-collapse" aria-expanded="true"><img src="img/profit-report.png" style="width: 20px; margin-right: 10px">
+                    Reports
+                    <i class="bi bi-caret-right-fill"></i>  
+                    </button>
+                    <div class="collapse" id="Reports-collapse">
+                      <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <li class="li-colored"><a href="#" class="link-dark rounded">Invoices</a></li>
+                        <li class="li-colored"><a href="#" class="link-dark rounded">Labour Reports</a></li>
+                        <li class="li-colored"><a href="#" class="link-dark rounded">Hour Reports</a></li>
+                        <li class="li-colored"><a href="#" class="link-dark rounded">Day Reports</a></li>
+                        <li class="li-colored"><a href="#" class="link-dark rounded">Week Reports</a></li>
+                        <li class="li-colored"><a href="#" class="link-dark rounded">Month Reports</a></li>
+                        <li class="li-colored"><a href="#" class="link-dark rounded">Product Reports</a></li>
+                        <li class="li-colored"><a href="#" class="link-dark rounded">Category Reports</a></li>
+                        <li class="li-colored"><a href="#" class="link-dark rounded">Employee Report</a></li>
+                        <li class="li-colored"><a href="#" class="link-dark rounded">Ingredient Reports</a></li>
+                        <li class="li-colored"><a href="#" class="link-dark rounded">Shift Reports</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="">
+                    <button class="btn btn-toggle align-items-center collapsed" data-bs-toggle="collapse" data-bs-target="#Setting-collapse" aria-expanded="true"><img src="img/settings.png" style="width: 20px; margin-right: 10px">
+                    Setting
+                    <i class="bi bi-caret-right-fill"></i>  
+                    </button>
+                    <div class="collapse" id="Setting-collapse">
+                      <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <li class="li-colored"><a href="#" class="link-dark rounded">Overview</a></li>
+                        <li class="li-colored"><a href="#" class="link-dark rounded">Updates</a></li>
+                        <li class="li-colored"><a href="#" class="link-dark rounded">Reports</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+        </aside>
+    </article>
+                                        <!-- SideBar-->
+      <div class="row toolbar ">
+        <div class="col-6">
+          <h2 class="">Invoices & Receipts</h2>
+        </div>
+        
+        <div id="fromandto" class="col-6">
+          <div class="form-group form1">
+            <div class='input-group date' id='datetimepicker1'>
+              <input type='text' placeholder="From" class="form-control input-lg" />
+              <span class="input-group-addon"><i class="bi bi-calendar-range" style="cursor: pointer;"></i><i class="bi bi-caret-down-fill"></i>
+              </span>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class='input-group date' id='datetimepicker2'>
+              <input type='text' placeholder="To" class="form-control input-lg" />
+              <span class="input-group-addon"><i class="bi bi-calendar-range" style="cursor: pointer;"></i><i class="bi bi-caret-down-fill"></i>
+              </span>
+            </div>
+          </div>
+            <button type="button" class="btn btn-primary">Export</button>  
+        </div>
+
+      <article class="Dashboard">
+        <div class="row">
+            <div class="col-3">
+              <canvas id="myChart" width="1000" height="600"></canvas>
+            </div>
+            <div class="col-3">
+              <canvas id="myChart2" width="1000" height="600"></canvas>
+            </div>
+            <div class="col-3 piecharter">
+              <canvas id="myChartpie"></canvas>
+            </div>
+            <div class="col-3 piecharter">
+              <canvas id="myChartpie1"></canvas>
+            </div>
+        </div>
+        <div class="Dic">
+          <select class="form-select" id="country" required="">
+            <option value="">Text</option>
+            <option>.....</option>
+          </select>
+          <select class="form-select" id="curency" required="">
+            <option value="">$</option>
+            <option>.....</option>
+          </select>
+          <form class="d-flex">
+            <input class="form-select me-2 search" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success s-c" type="submit">Search</button>
+          </form>
+          <button type="button" class="btn btn-light s-c">Light</button>
+          <button type="button" class="btn btn-light s-c">Light</button>
+        </div>
+        <div class="table-responsive">
+          <table class="table table-striped table-sm">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Data</th>
+                <th scope="col">Document</th>
+                <th scope="col">Number</th>
+                <th scope="col">Order#</th>
+                <th scope="col">Customer</th>
+                <th scope="col">Company</th>
+                <th scope="col">Total</th>
+                <th scope="col">Total vat</th>
+                <th scope="col">Paid</th>
+                <th scope="col">Employee</th>
+                <th scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1,001</td>
+                <td>random</td>
+                <td>data</td>
+                <td>placeholder</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+              </tr>
+              <tr>
+                <td>1,002</td>
+                <td>placeholder</td>
+                <td>irrelevant</td>
+                <td>visual</td>
+                <td>layout</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+              </tr>
+              <tr>
+                <td>1,003</td>
+                <td>data</td>
+                <td>rich</td>
+                <td>dashboard</td>
+                <td>tabular</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+              </tr>
+              <tr>
+                <td>1,003</td>
+                <td>information</td>
+                <td>placeholder</td>
+                <td>illustrative</td>
+                <td>data</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+              </tr>
+              <tr>
+                <td>1,004</td>
+                <td>text</td>
+                <td>random</td>
+                <td>layout</td>
+                <td>dashboard</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+              </tr>
+              <tr>
+                <td>1,005</td>
+                <td>dashboard</td>
+                <td>irrelevant</td>
+                <td>text</td>
+                <td>placeholder</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+              </tr>
+              <tr>
+                <td>1,006</td>
+                <td>dashboard</td>
+                <td>illustrative</td>
+                <td>rich</td>
+                <td>data</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+              </tr>
+              <tr>
+                <td>1,007</td>
+                <td>placeholder</td>
+                <td>tabular</td>
+                <td>information</td>
+                <td>irrelevant</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+              </tr>
+              <tr>
+                <td>1,008</td>
+                <td>random</td>
+                <td>data</td>
+                <td>placeholder</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+              </tr>
+              <tr>
+                <td>1,009</td>
+                <td>placeholder</td>
+                <td>irrelevant</td>
+                <td>visual</td>
+                <td>layout</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+              </tr>
+              <tr>
+                <td>1,010</td>
+                <td>data</td>
+                <td>rich</td>
+                <td>dashboard</td>
+                <td>tabular</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+              </tr>
+              <tr>
+                <td>1,011</td>
+                <td>information</td>
+                <td>placeholder</td>
+                <td>illustrative</td>
+                <td>data</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+              </tr>
+              <tr>
+                <td>1,012</td>
+                <td>text</td>
+                <td>placeholder</td>
+                <td>layout</td>
+                <td>dashboard</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+              </tr>
+              <tr>
+                <td>1,013</td>
+                <td>dashboard</td>
+                <td>irrelevant</td>
+                <td>text</td>
+                <td>visual</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+              </tr>
+              <tr>
+                <td>1,014</td>
+                <td>dashboard</td>
+                <td>illustrative</td>
+                <td>rich</td>
+                <td>data</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+              </tr>
+              <tr>
+                <td>1,015</td>
+                <td>random</td>
+                <td>tabular</td>
+                <td>information</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </article>
+      <footer>
+        <p>copyright &copy 2021 Makashron Ltd All Rights Reserved</p>
+        <p>Loading since 1,821 seconds</p>
+      </footer>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/chart.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
